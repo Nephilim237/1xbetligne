@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+:root {
+    --cc-secondary: #002e5b;
+    --cc-primary: #0076c6;
+    --cc-dark: #013237;
+    --cc-white: #f7f7f7;
+    --cc-black: #232323;
+    --test: rgba(1, 50, 55, 0.709);
+}
+
+.sairaStencil {
+    font-family: 'Saira Stencil One', cursive;
+}
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.bet-primary {
+    background-color: var(--cc-primary);
+}
+
+.bet-secondary {
+    background-color: var(--cc-secondary);
+}
+
+.bet-dark {
+    background-color: var(--cc-dark);
+}
+
+.text-bet-primary {
+    color: var(--cc-primary);
+}
+
+.text-bet-secondary {
+    color: var(--cc-secondary);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: #f1f7f7;
+    color: var(--cc-dark);
+    letter-spacing: initial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.btn {
+    text-transform: initial;
+    letter-spacing: initial;
+}
+
+/* ===== Common styles zone ===== */
+
+p .btn {
+    margin-top: 1rem;
+}
+
+.cc-1xbet {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    margin-right: 10px;
+}
+
+.cc-1xbet .cc-1xbet-sec-part {
+    color: var(--cc-primary);
+}
+
+.cc-promo-code {
+    font-size: 24px;
+}
+
+.cc-telegram {
+    color: var(--cc-secondary);
+}
+/* ===== End common styles zone ===== */
+
+/* ===== Navbar Zone ===== */
+
+.navbar {
+    text-transform: initial;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cc-navbar-xbet {
+    background-color: var(--cc-primary);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar.xbet .navbar-brand,
+.navbar.xbet .navbar-brand {
+    color: var(--cc-white);
+}
+.navbar .nav-link {
+    font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+    color: var(--cc-1win-secondary);
+}
+
+#cc-logo {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 32px;
+}
+
+#cc-logo i {
+    color: goldenrod;
+}
+
+#logoMoney {
+    /* font-size: 48px; */
+    color: var(--cc-secondary);
+}
+
+@media (max-width: 800px) {
+    #cc-logo {
+        font-size: 24px;
+    }
+}
+
+/* ===== End Navbar zone ===== */
+
+/* ===== Banner zone ===== */
+.cc-banner {
+    background-color: var(--cc-white);
+    color: var(--cc-dark);
+}
+.cc-banner-title {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+    .cc-banner-title {
+        font-size: 32px;
+    }
+}
+
+iframe {
+    width: 100%;
+}
+
+.cc-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cc-card-presentation {
+    padding: 24px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 4px;
+    box-shadow: 0 4px 24px rgba(1, 50, 55, 0.15),
+        0 1px 24px rgba(1, 50, 55, 0.25);
+}
+
+@media (max-width: 600px) {
+    .cc-card-presentation {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+
+.cc-card-presentation img {
+    border-radius: 12px;
+}
+/* ===== End Banner zone ===== */
+
+/* ===== Marquee zone ===== */
+.cc-marquee {
+    color: var(--cc-white);
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--cc-white);
+}
+/* ===== End Marquee zone ===== */
+
+/* ===== Conditions Zone ==== */
+
+.cc-game-desc ol {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.cc-game-desc ul.cc-game-desc-ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.cc-game-desc .nav-tabs {
+    border-bottom: 1px solid var(--cc-dark);
+}
+
+.cc-game-desc .nav-tabs .nav-link.active {
+    color: var(--cc-white);
+    background-color: var(--cc-dark);
+    border-color: var(--cc-dark);
+}
+
+.cc-game-desc .nav-tabs .nav-link:hover {
+    border: 1px solid var(--cc-white);
+    background-color: var(--cc-primary);
+    color: var(--cc-white);
+}
+
+/* ===== End Conditions zone ===== */
+
+/* ===== Footer zone ===== */
+
+.cc-footer h6 {
+    font-size: 18px;
+    color: var(--cc-white);
+}
+
+.cc-footer ul {
+    list-style-type: none;
+    padding-left: 12px;
+}
+
+.cc-footer a {
+    text-decoration: none;
+    color: var(--cc-white);
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.cc-footer a:hover {
+    color: var(--cc-secondary);
+}
+/* ===== End footer zone ===== */
+
+/* ====== Button zone ===== */
+.cc-btn-bet-dark {
+    background-color: var(--cc-dark);
+    color: var(--cc-white);
+}
+
+.cc-btn-bet-dark:hover {
+    background-color: var(--cc-white);
+    color: var(--cc-dark);
+}
+
+.cc-btn-bet-primary {
+    background-color: var(--cc-primary);
+    color: var(--cc-white);
+}
+
+.cc-btn-bet-primary:hover {
+    background-color: var(--cc-white);
+    color: var(--cc-primary);
+}
+
+.btn .fa-brands {
+    vertical-align: middle;
+}
